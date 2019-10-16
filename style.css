@@ -1,0 +1,209 @@
+body{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#calc{
+    display: grid;
+    width: 400px;
+    height: 500px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "clear result result result"
+    "seven eight nine divide"
+    "four five six times"
+    "one two three minus"
+    "zero dot equals plus";
+    border: none;
+}
+
+button{
+    outline: none;
+}
+
+#result{
+    grid-area: result;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+#clear{
+    grid-area: clear;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#zero{
+    grid-area: zero;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#one{
+    grid-area: one;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#two{
+    grid-area: two;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#three{
+    grid-area: three;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#four{
+    grid-area: four;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#five{
+    grid-area: five;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#six{
+    grid-area: six;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#seven{
+    grid-area: seven;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#eight{
+    grid-area: eight;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#nine{
+    grid-area: nine;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#dot{
+    grid-area: dot;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+#equals{
+    grid-area: equals;
+    color: white;
+    background: rgb(91, 170, 77);
+    border: 1px solid rgb(116, 184, 104);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#plus{
+    grid-area: plus;
+    color: black;
+    border: 1px solid rgb(159, 205, 152);
+    background: rgb(120, 185, 109);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#minus{
+    grid-area: minus;
+    color: black;
+    border: 1px solid rgb(159, 205, 152);
+    background: rgb(120, 185, 109);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#times{
+    grid-area: times;
+    color: black;
+    border: 1px solid rgb(159, 205, 152);
+    background: rgb(120, 185, 109);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#divide{
+    grid-area: divide;
+    color: black;
+    border: 1px solid rgb(159, 205, 152);
+    background: rgb(120, 185, 109);
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
