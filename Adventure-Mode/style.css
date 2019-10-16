@@ -24,6 +24,10 @@ button{
     outline: none;
 }
 
+#equals:hover{
+    background: rgb(120, 185, 109);
+}
+
 #result{
     grid-area: result;
     color: white;
@@ -36,6 +40,10 @@ button{
     align-items: center;
     justify-content: flex-end;
     padding-right: 5px;
+}
+
+#clear:hover{
+    background: rgb(120, 185, 109);
 }
 
 #clear{
@@ -167,6 +175,10 @@ button{
     font-weight: lighter;
 }
 
+#plus:hover{
+    color: white;
+}
+
 #plus{
     grid-area: plus;
     color: black;
@@ -175,6 +187,10 @@ button{
     font-family: Helvetica, sans-serif;
     font-size: 40px;
     font-weight: lighter;
+}
+
+#minus:hover{
+    color: white;
 }
 
 #minus{
@@ -187,6 +203,10 @@ button{
     font-weight: lighter;
 }
 
+#times:hover{
+    color: white;
+}
+
 #times{
     grid-area: times;
     color: black;
@@ -195,6 +215,10 @@ button{
     font-family: Helvetica, sans-serif;
     font-size: 40px;
     font-weight: lighter;
+}
+
+#divide:hover{
+    color: white;
 }
 
 #divide{
